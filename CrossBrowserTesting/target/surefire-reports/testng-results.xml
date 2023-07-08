@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-02T13:31:48 IST" name="Suite" finished-at="2023-07-02T13:32:13 IST" duration-ms="25527">
+    <groups>
+    </groups>
+    <test started-at="2023-07-02T13:31:48 IST" name="Test-2" finished-at="2023-07-02T13:32:06 IST" duration-ms="17888">
+      <class name="crossBrowser.CrossBrowserTesting.TestDemo">
+        <test-method signature="titleCheck()[pri:0, instance:crossBrowser.CrossBrowserTesting.TestDemo@515f4131]" started-at="2023-07-02T13:31:48 IST" name="titleCheck" finished-at="2023-07-02T13:32:06 IST" duration-ms="17603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleCheck -->
+      </class> <!-- crossBrowser.CrossBrowserTesting.TestDemo -->
+    </test> <!-- Test-2 -->
+    <test started-at="2023-07-02T13:31:48 IST" name="Test-0" finished-at="2023-07-02T13:32:07 IST" duration-ms="19304">
+      <class name="crossBrowser.CrossBrowserTesting.TestDemo">
+        <test-method signature="titleCheck()[pri:0, instance:crossBrowser.CrossBrowserTesting.TestDemo@1a1d3c1a]" started-at="2023-07-02T13:31:48 IST" name="titleCheck" finished-at="2023-07-02T13:32:06 IST" duration-ms="17581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleCheck -->
+      </class> <!-- crossBrowser.CrossBrowserTesting.TestDemo -->
+    </test> <!-- Test-0 -->
+    <test started-at="2023-07-02T13:31:48 IST" name="Test-1" finished-at="2023-07-02T13:32:13 IST" duration-ms="25527">
+      <class name="crossBrowser.CrossBrowserTesting.TestDemo">
+        <test-method signature="titleCheck()[pri:0, instance:crossBrowser.CrossBrowserTesting.TestDemo@61019f59]" started-at="2023-07-02T13:31:48 IST" name="titleCheck" finished-at="2023-07-02T13:32:12 IST" duration-ms="23944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleCheck -->
+      </class> <!-- crossBrowser.CrossBrowserTesting.TestDemo -->
+    </test> <!-- Test-1 -->
+  </suite> <!-- Suite -->
+</testng-results>

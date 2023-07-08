@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="44277" started-at="2023-06-23T23:57:42 IST" finished-at="2023-06-23T23:58:26 IST">
+    <groups>
+      <group name="Purchase">
+        <method signature="StandAloneTestUpdatedTest.submitOrder(java.util.HashMap)[pri:0, instance:seleniumProject.StandAloneTestUpdatedTest@646d64ab]" name="submitOrder" class="seleniumProject.StandAloneTestUpdatedTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test name="Surefire test" duration-ms="44277" started-at="2023-06-23T23:57:42 IST" finished-at="2023-06-23T23:58:26 IST">
+      <class name="seleniumProject.ErrorValidationsTest">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:seleniumProject.ErrorValidationsTest@1c3a4799]" name="launchApplication" is-config="true" duration-ms="6717" started-at="2023-06-23T23:57:42 IST" finished-at="2023-06-23T23:57:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="verifyInvalidLogin()[pri:0, instance:seleniumProject.ErrorValidationsTest@1c3a4799]" name="verifyInvalidLogin" duration-ms="1018" started-at="2023-06-23T23:57:49 IST" finished-at="2023-06-23T23:57:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:seleniumProject.ErrorValidationsTest@1c3a4799]" name="closeBrowser" is-config="true" duration-ms="115" started-at="2023-06-23T23:57:50 IST" finished-at="2023-06-23T23:57:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:seleniumProject.ErrorValidationsTest@1c3a4799]" name="launchApplication" is-config="true" duration-ms="3491" started-at="2023-06-23T23:57:50 IST" finished-at="2023-06-23T23:57:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="verifyProductInCart()[pri:0, instance:seleniumProject.ErrorValidationsTest@1c3a4799]" name="verifyProductInCart" duration-ms="3638" started-at="2023-06-23T23:57:53 IST" finished-at="2023-06-23T23:57:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductInCart -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:seleniumProject.ErrorValidationsTest@1c3a4799]" name="closeBrowser" is-config="true" duration-ms="132" started-at="2023-06-23T23:57:57 IST" finished-at="2023-06-23T23:57:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- seleniumProject.ErrorValidationsTest -->
+      <class name="seleniumProject.StandAloneTestUpdatedTest">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:seleniumProject.StandAloneTestUpdatedTest@646d64ab]" name="launchApplication" is-config="true" duration-ms="2280" started-at="2023-06-23T23:57:58 IST" finished-at="2023-06-23T23:58:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="submitOrder(java.util.HashMap)[pri:0, instance:seleniumProject.StandAloneTestUpdatedTest@646d64ab]" name="submitOrder" duration-ms="7538" started-at="2023-06-23T23:58:00 IST" data-provider="getData" finished-at="2023-06-23T23:58:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=ZARA COAT 3, pass=P@ssword!, email=vipin.dhiman21@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:seleniumProject.StandAloneTestUpdatedTest@646d64ab]" name="closeBrowser" is-config="true" duration-ms="186" started-at="2023-06-23T23:58:07 IST" finished-at="2023-06-23T23:58:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:seleniumProject.StandAloneTestUpdatedTest@646d64ab]" name="launchApplication" is-config="true" duration-ms="6177" started-at="2023-06-23T23:58:08 IST" finished-at="2023-06-23T23:58:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="submitOrder(java.util.HashMap)[pri:0, instance:seleniumProject.StandAloneTestUpdatedTest@646d64ab]" name="submitOrder" duration-ms="7331" started-at="2023-06-23T23:58:14 IST" data-provider="getData" finished-at="2023-06-23T23:58:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product=ADIDAS ORIGINAL, pass=@Vipin123, email=vipin.dhiman.qasource@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:seleniumProject.StandAloneTestUpdatedTest@646d64ab]" name="closeBrowser" is-config="true" duration-ms="258" started-at="2023-06-23T23:58:21 IST" finished-at="2023-06-23T23:58:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:seleniumProject.StandAloneTestUpdatedTest@646d64ab]" name="launchApplication" is-config="true" duration-ms="3016" started-at="2023-06-23T23:58:21 IST" finished-at="2023-06-23T23:58:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="orderVerification()[pri:0, instance:seleniumProject.StandAloneTestUpdatedTest@646d64ab]" name="orderVerification" duration-ms="1838" started-at="2023-06-23T23:58:24 IST" depends-on-methods="seleniumProject.StandAloneTestUpdatedTest.submitOrder" finished-at="2023-06-23T23:58:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderVerification -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:seleniumProject.StandAloneTestUpdatedTest@646d64ab]" name="closeBrowser" is-config="true" duration-ms="77" started-at="2023-06-23T23:58:26 IST" finished-at="2023-06-23T23:58:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- seleniumProject.StandAloneTestUpdatedTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

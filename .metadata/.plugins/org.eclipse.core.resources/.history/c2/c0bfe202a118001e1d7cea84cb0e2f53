@@ -1,0 +1,12 @@
+package crossBrowser.CrossBrowserTesting;
+
+import org.openqa.selenium.WebDriver;
+
+public class TestDemo {
+	
+	public void titleCheck() {
+		WebDriver driver = new RemoteWebDriver(new URL(""));
+		driver.get("");
+	}
+
+}

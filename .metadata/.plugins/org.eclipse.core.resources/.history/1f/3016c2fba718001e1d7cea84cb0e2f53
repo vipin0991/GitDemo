@@ -1,0 +1,24 @@
+userName: vipindhiman_rZWNUE
+accessKey: MDy3TfGsq6jsAeWQ3uK9
+framework: testng
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Edge
+    browserVersion: 112.0
+  - os: Windows
+    osVersion: 11
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Chrome
+    browserVersion: 111.0
+parallelsPerPlatform: 1
+browserstackLocal: true
+buildName: bstack-demo
+buildIdentifier: ${BUILD_NUMBER}
+projectName: BrowserStack Sample
+testObservability: true
+networkLogs: true
+consoleLogs: info

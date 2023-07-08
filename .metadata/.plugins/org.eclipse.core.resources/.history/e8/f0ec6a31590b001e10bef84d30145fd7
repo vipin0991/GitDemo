@@ -1,0 +1,72 @@
+package seleniumProject;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import TestComponents.BaseTest;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import pageObjects.Cart;
+import pageObjects.Checkout;
+import pageObjects.LandingPage;
+import pageObjects.OrderPage;
+import pageObjects.PlacedOrder;
+import pageObjects.ProductCatalogue;
+
+public class StandAloneTestUpdatedTest extends BaseTest {
+	
+	//String prod = "ADIDAS ORIGINAL";
+	
+		@Test(dataProvider="getData",groups={"Purchase"})
+		public void submitOrder(String email, String pass, String prod) throws InterruptedException, IOException {
+		//String prod = "ADIDAS ORIGINAL";
+		ProductCatalogue pc = lp.login(email,pass);
+			
+		List<WebElement> li = pc.getProductList();
+		pc.addProductToCart(prod);
+		Cart ct = pc.navigateToCart();
+
+		List<WebElement> crt = ct.getCartProductList();
+		Boolean match = ct.checkCartItems(prod);
+		Assert.assertTrue(match);
+				
+		Checkout chk = ct.clickCheckOut();
+		
+		PlacedOrder po = chk.enterCountry("india");
+		
+		String txt = po.placeOrder();
+		
+		Assert.assertEquals(txt,"THANKYOU FOR THE ORDER.");
+		
+	}	
+		
+		@Test(dependsOnMethods= {"submitOrder"})
+		//@Test
+		public void orderVerification() throws InterruptedException, IOException {
+			ProductCatalogue pc = lp.login("vipin.dhiman21@gmail.com","P@ssword!");
+			OrderPage op  = pc.navigateToOrders();
+			//System.out.println(op.ordersLst(prod));
+			Assert.assertEquals(op.ordersLst(prod.toLowerCase()), true);
+			
+		
+	}	
+		@DataProvider
+		public Object[][] getData(){
+			return new Object[][] {{"vipin.dhiman21@gmail.com","P@ssword!","ZARA COAT 3"},{"anshika@gmail.com","Iamking@000","ADIDAS ORIGINAL"}};
+		}
+		
+
+}

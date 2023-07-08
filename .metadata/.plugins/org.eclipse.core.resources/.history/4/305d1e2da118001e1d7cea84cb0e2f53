@@ -1,0 +1,14 @@
+package crossBrowser.CrossBrowserTesting;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+
+public class TestDemo {
+	
+	public void titleCheck() {
+		WebDriver driver = new RemoteWebDriver(new URL(""));
+		driver.get("");
+		Assert.assertTrue(driver.getTitle().contains("API Testing"));
+	}
+
+}
