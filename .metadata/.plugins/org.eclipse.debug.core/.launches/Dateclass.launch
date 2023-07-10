@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/coreJavaTraining/src/coreJavaTraining/Dateclass.java"/>
+        <listEntry value="/OOPSBasicP1/src/DateClass.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
     </listAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="coreJavaTraining.Dateclass"/>
-    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="coreJavaTraining"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="coreJavaTraining"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="DateClass"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="OOPSBasicP1"/>
 </launchConfiguration>

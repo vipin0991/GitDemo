@@ -1,0 +1,32 @@
+
+public class FindMinThenMax {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			int a[][]= {{2,4,5},{3,6,7},{1,0,9}};
+			
+			//System.out.println(args.length);
+			//System.out.println(args[0].length);
+			
+			int min = a[0][0];
+			int col = 0;
+			
+			for(int i=0;i<3;i++) {
+				for(int j=0;j<3;j++) {
+					if(a[i][j]<min) {
+						min = a[i][j];
+						col = j;
+					}
+				}
+			}
+			int max = min;
+			System.out.println(min+" Min"+"col "+col);
+			for(int k =0;k<3;k++) {
+				if(a[k][col]>max) {
+					max = a[k][col];
+				}
+			}
+			System.out.println(max);
+	}
+
+}

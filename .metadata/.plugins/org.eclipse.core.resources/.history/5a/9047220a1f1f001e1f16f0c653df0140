@@ -1,0 +1,16 @@
+
+public class StaticExample {
+	
+	int i=0;
+	Static int j = 0;
+
+	public static getData() {
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

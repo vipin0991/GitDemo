@@ -1,0 +1,10 @@
+import java.util.Date;
+
+public class DateClass {
+	public static void main(String[] args) {
+		Date dt = new Date();
+		SimpleDateFormat sdf = new SimpleDateFormat();
+		System.out.println(dt.getDate());
+		System.out.println(dt);
+	}
+}
