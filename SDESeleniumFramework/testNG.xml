@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="SDESeleniumFramework">  
+  <listeners>
+  	<listener class-name="com.SDESeleniumFramework.utilities.Reporting" />
+  </listeners>
+  <test name="LoginTest">  
+  	<parameter name="browser" value="chrome">
+	    <classes>  
+	  <class name="com.SDESeleniumFramework.testCases.TC_LoginTest_001"/>   
+	      <class name="com.SDESeleniumFramework.testCases.TC_LoginDDTTest_002"/> 
+	       <class name="com.SDESeleniumFramework.testCases.TC_AddCustomerTest_003"/> 
+	       
+	    </classes>  
+	 </parameter>  
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->  

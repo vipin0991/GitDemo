@@ -1,0 +1,175 @@
+2023-07-12 17:00:27 INFO  Selenium:15 - URL is opened
+  2023-07-12 17:00:27 INFO  Selenium:19 - Login details are entered
+  2023-07-12 17:00:28 INFO  Selenium:23 - Login test passed
+  2023-07-12 17:26:53 INFO  Selenium:15 - URL is opened
+  2023-07-12 17:26:54 INFO  Selenium:19 - Login details are entered
+  2023-07-12 17:26:55 INFO  Selenium:23 - Login test passed
+  2023-07-12 18:37:09 INFO  Selenium:14 - URL is opened
+  2023-07-12 18:37:09 INFO  Selenium:18 - Login details are entered
+  2023-07-12 18:37:11 INFO  Selenium:22 - Login test passed
+  2023-07-12 18:38:34 INFO  Selenium:14 - URL is opened
+  2023-07-12 18:38:35 INFO  Selenium:18 - Login details are entered
+  2023-07-12 18:38:36 INFO  Selenium:22 - Login test passed
+  2023-07-12 19:46:51 INFO  Selenium:14 - URL is opened
+  2023-07-12 19:46:51 INFO  Selenium:18 - Login details are entered
+  2023-07-12 19:46:52 INFO  Selenium:22 - Login test passed
+  2023-07-12 19:49:59 INFO  Selenium:14 - URL is opened
+  2023-07-12 19:49:59 INFO  Selenium:18 - Login details are entered
+  2023-07-12 19:50:00 INFO  Selenium:22 - Login test passed
+  2023-07-12 19:51:32 INFO  Selenium:14 - URL is opened
+  2023-07-12 19:51:32 INFO  Selenium:18 - Login details are entered
+  2023-07-12 19:51:33 INFO  Selenium:22 - Login test passed
+  2023-07-12 19:53:15 INFO  Selenium:14 - URL is opened
+  2023-07-12 19:53:15 INFO  Selenium:18 - Login details are entered
+  2023-07-12 19:53:16 INFO  Selenium:22 - Login test passed
+  2023-07-12 19:54:43 INFO  Selenium:14 - URL is opened
+  2023-07-12 19:54:43 INFO  Selenium:18 - Login details are entered
+  2023-07-12 19:54:44 INFO  Selenium:22 - Login test passed
+  2023-07-12 19:55:21 INFO  Selenium:14 - URL is opened
+  2023-07-12 19:55:22 INFO  Selenium:18 - Login details are entered
+  2023-07-12 19:55:23 INFO  Selenium:27 - Login test failed
+  2023-07-12 19:56:46 INFO  Selenium:14 - URL is opened
+  2023-07-12 19:56:46 INFO  Selenium:18 - Login details are entered
+  2023-07-12 19:56:47 INFO  Selenium:25 - Login test failed
+  2023-07-12 20:01:40 INFO  Selenium:14 - URL is opened
+  2023-07-12 20:01:41 INFO  Selenium:18 - Login details are entered
+  2023-07-12 20:01:42 INFO  Selenium:25 - Login test failed
+  2023-07-12 20:06:09 INFO  Selenium:14 - URL is opened
+  2023-07-12 20:06:09 INFO  Selenium:18 - Login details are entered
+  2023-07-12 20:06:22 INFO  Selenium:25 - Login test failed
+  2023-07-12 20:08:36 INFO  Selenium:14 - URL is opened
+  2023-07-12 20:08:36 INFO  Selenium:18 - Login details are entered
+  2023-07-12 20:08:38 INFO  Selenium:25 - Login test failed
+  2023-07-12 20:12:18 INFO  Selenium:14 - URL is opened
+  2023-07-12 20:12:19 INFO  Selenium:18 - Login details are entered
+  2023-07-12 20:12:20 INFO  Selenium:25 - Login test failed
+  2023-07-12 20:14:23 INFO  Selenium:14 - URL is opened
+  2023-07-12 20:14:23 INFO  Selenium:18 - Login details are entered
+  2023-07-12 20:14:24 INFO  Selenium:25 - Login test failed
+  2023-07-12 23:19:33 INFO  Selenium:14 - URL is opened
+  2023-07-12 23:19:33 INFO  Selenium:18 - Login details are entered
+  2023-07-12 23:19:35 INFO  Selenium:25 - Login test failed
+  2023-07-12 23:22:24 INFO  Selenium:14 - URL is opened
+  2023-07-12 23:22:25 INFO  Selenium:18 - Login details are entered
+  2023-07-12 23:22:26 INFO  Selenium:25 - Login test failed
+  2023-07-12 23:24:30 INFO  Selenium:14 - URL is opened
+  2023-07-12 23:24:31 INFO  Selenium:18 - Login details are entered
+  2023-07-12 23:24:32 INFO  Selenium:25 - Login test failed
+  2023-07-12 23:28:20 INFO  Selenium:14 - URL is opened
+  2023-07-12 23:28:21 INFO  Selenium:18 - Login details are entered
+  2023-07-12 23:28:22 INFO  Selenium:25 - Login test failed
+  2023-07-13 15:05:46 INFO  Selenium:14 - URL is opened
+  2023-07-13 15:05:47 INFO  Selenium:18 - Login details are entered
+  2023-07-13 15:05:48 INFO  Selenium:25 - Login test failed
+  2023-07-13 15:06:46 INFO  Selenium:21 - Login details are entered
+  2023-07-13 15:06:51 INFO  Selenium:31 - Password is valid
+  2023-07-13 15:06:56 INFO  Selenium:21 - Login details are entered
+  2023-07-13 15:07:00 WARN  Selenium:26 - Password is invalid
+  2023-07-13 15:07:02 INFO  Selenium:21 - Login details are entered
+  2023-07-13 15:07:06 INFO  Selenium:31 - Password is valid
+  2023-07-13 15:14:08 INFO  Selenium:21 - Login details are entered
+  2023-07-13 15:14:13 INFO  Selenium:31 - Password is valid
+  2023-07-13 15:14:19 INFO  Selenium:21 - Login details are entered
+  2023-07-13 15:14:23 WARN  Selenium:26 - Password is invalid
+  2023-07-13 15:14:25 INFO  Selenium:21 - Login details are entered
+  2023-07-13 15:14:29 INFO  Selenium:31 - Password is valid
+  2023-07-13 15:17:21 INFO  Selenium:21 - Login details are entered
+  2023-07-13 15:17:25 INFO  Selenium:31 - Password is valid
+  2023-07-13 15:17:31 INFO  Selenium:21 - Login details are entered
+  2023-07-13 15:17:35 WARN  Selenium:26 - Password is invalid
+  2023-07-13 15:17:37 INFO  Selenium:21 - Login details are entered
+  2023-07-13 15:17:41 INFO  Selenium:31 - Password is valid
+  2023-07-13 15:17:51 INFO  Selenium:21 - Login details are entered
+  2023-07-13 15:17:55 WARN  Selenium:26 - Password is invalid
+  2023-07-13 15:19:59 INFO  Selenium:14 - URL is opened
+  2023-07-13 15:20:00 INFO  Selenium:18 - Login details are entered
+  2023-07-13 15:20:01 INFO  Selenium:25 - Login test failed
+  2023-07-13 15:20:09 INFO  Selenium:21 - Login details are entered
+  2023-07-13 15:20:13 INFO  Selenium:31 - Password is valid
+  2023-07-13 15:20:18 INFO  Selenium:21 - Login details are entered
+  2023-07-13 15:20:22 WARN  Selenium:26 - Password is invalid
+  2023-07-13 15:20:24 INFO  Selenium:21 - Login details are entered
+  2023-07-13 15:20:28 INFO  Selenium:31 - Password is valid
+  2023-07-13 15:20:34 INFO  Selenium:21 - Login details are entered
+  2023-07-13 15:20:38 WARN  Selenium:26 - Password is invalid
+  2023-07-13 18:16:10 INFO  Selenium:14 - URL is opened
+  2023-07-13 18:16:10 INFO  Selenium:18 - Login details are entered
+  2023-07-13 18:16:12 INFO  Selenium:25 - Login test failed
+  2023-07-13 18:16:18 INFO  Selenium:21 - Login details are entered
+  2023-07-13 18:16:23 INFO  Selenium:34 - Password is valid
+  2023-07-13 18:16:30 INFO  Selenium:21 - Login details are entered
+  2023-07-13 18:16:33 WARN  Selenium:28 - Password is invalid
+  2023-07-13 18:16:35 INFO  Selenium:21 - Login details are entered
+  2023-07-13 18:16:39 INFO  Selenium:34 - Password is valid
+  2023-07-13 18:16:45 INFO  Selenium:21 - Login details are entered
+  2023-07-13 18:16:49 WARN  Selenium:28 - Password is invalid
+  2023-07-13 19:03:55 INFO  Selenium:14 - URL is opened
+  2023-07-13 19:03:56 INFO  Selenium:18 - Login details are entered
+  2023-07-13 19:04:05 INFO  Selenium:25 - Login test failed
+  2023-07-13 23:26:02 INFO  Selenium:14 - URL is opened
+  2023-07-13 23:26:03 INFO  Selenium:18 - Login details are entered
+  2023-07-13 23:26:12 INFO  Selenium:25 - Login test failed
+  2023-07-13 23:28:02 INFO  Selenium:14 - URL is opened
+  2023-07-13 23:28:02 INFO  Selenium:18 - Login details are entered
+  2023-07-13 23:28:04 INFO  Selenium:25 - Login test failed
+  2023-07-13 23:29:21 INFO  Selenium:14 - URL is opened
+  2023-07-13 23:29:22 INFO  Selenium:18 - Login details are entered
+  2023-07-13 23:29:23 INFO  Selenium:25 - Login test failed
+  2023-07-13 23:29:34 INFO  Selenium:21 - Login details are entered
+  2023-07-13 23:29:39 INFO  Selenium:34 - Password is valid
+  2023-07-13 23:29:45 INFO  Selenium:21 - Login details are entered
+  2023-07-13 23:29:49 WARN  Selenium:28 - Password is invalid
+  2023-07-13 23:29:51 INFO  Selenium:21 - Login details are entered
+  2023-07-13 23:29:55 INFO  Selenium:34 - Password is valid
+  2023-07-13 23:30:02 INFO  Selenium:21 - Login details are entered
+  2023-07-13 23:30:05 WARN  Selenium:28 - Password is invalid
+  2023-07-13 23:48:22 INFO  Selenium:14 - URL is opened
+  2023-07-13 23:48:22 INFO  Selenium:18 - Login details are entered
+  2023-07-13 23:48:24 INFO  Selenium:22 - Login test passed
+  2023-07-13 23:48:31 INFO  Selenium:21 - Login details are entered
+  2023-07-13 23:48:36 INFO  Selenium:34 - Password is valid
+  2023-07-13 23:48:42 INFO  Selenium:21 - Login details are entered
+  2023-07-13 23:48:46 WARN  Selenium:28 - Password is invalid
+  2023-07-13 23:48:49 INFO  Selenium:21 - Login details are entered
+  2023-07-13 23:48:53 INFO  Selenium:34 - Password is valid
+  2023-07-13 23:49:01 INFO  Selenium:21 - Login details are entered
+  2023-07-13 23:49:05 WARN  Selenium:28 - Password is invalid
+  2023-07-14 00:06:04 INFO  Selenium:14 - URL is opened
+  2023-07-14 00:06:04 INFO  Selenium:18 - Login details are entered
+  2023-07-14 00:06:06 INFO  Selenium:22 - Login test passed
+  2023-07-14 00:06:33 INFO  Selenium:21 - Login details are entered
+  2023-07-14 00:06:50 INFO  Selenium:34 - Password is valid
+  2023-07-14 00:06:56 INFO  Selenium:21 - Login details are entered
+  2023-07-14 00:06:59 WARN  Selenium:28 - Password is invalid
+  2023-07-14 00:07:02 INFO  Selenium:21 - Login details are entered
+  2023-07-14 00:07:06 INFO  Selenium:34 - Password is valid
+  2023-07-14 00:07:12 INFO  Selenium:21 - Login details are entered
+  2023-07-14 00:07:16 WARN  Selenium:28 - Password is invalid
+  2023-07-14 00:07:24 INFO  Selenium:19 - URL is opened
+  2023-07-14 00:07:25 INFO  Selenium:22 - Provided credentials
+  2023-07-14 00:07:26 INFO  Selenium:25 - Home Page is displayed
+  2023-07-14 00:07:27 INFO  Selenium:29 - Click on New Customer link
+  2023-07-14 00:07:31 INFO  Selenium:53 - Handled Google add on popup
+  2023-07-14 00:07:31 INFO  Selenium:58 - Start entering differnet attribute values
+  2023-07-14 00:07:32 INFO  Selenium:70 - Click on Submit
+  2023-07-14 00:07:34 INFO  Selenium:75 - TC Passed
+  2023-07-14 11:45:58 INFO  Selenium:14 - URL is opened
+  2023-07-14 11:45:59 INFO  Selenium:18 - Login details are entered
+  2023-07-14 11:46:09 INFO  Selenium:22 - Login test passed
+  2023-07-14 11:46:18 INFO  Selenium:21 - Login details are entered
+  2023-07-14 11:46:23 INFO  Selenium:34 - Password is valid
+  2023-07-14 11:46:33 INFO  Selenium:21 - Login details are entered
+  2023-07-14 11:46:37 WARN  Selenium:28 - Password is invalid
+  2023-07-14 11:46:43 INFO  Selenium:21 - Login details are entered
+  2023-07-14 11:46:49 INFO  Selenium:34 - Password is valid
+  2023-07-14 11:46:55 INFO  Selenium:21 - Login details are entered
+  2023-07-14 11:46:59 WARN  Selenium:28 - Password is invalid
+  2023-07-14 11:47:10 INFO  Selenium:19 - URL is opened
+  2023-07-14 11:47:10 INFO  Selenium:22 - Provided credentials
+  2023-07-14 11:47:11 INFO  Selenium:25 - Home Page is displayed
+  2023-07-14 11:47:12 INFO  Selenium:29 - Click on New Customer link
+  2023-07-14 11:47:16 INFO  Selenium:53 - Handled Google add on popup
+  2023-07-14 11:47:16 INFO  Selenium:58 - Start entering differnet attribute values
+  2023-07-14 11:47:18 INFO  Selenium:70 - Click on Submit
+  2023-07-14 11:47:19 INFO  Selenium:75 - TC Passed
+  
